@@ -53,7 +53,7 @@
   text-transform: uppercase;
   font-weight: 800;
   color: #000000;
-  background: #ff3939;
+  background: #ff7f24;
   cursor: pointer;
   font-size: x-large;
   transition-duration: 0.4s;
@@ -172,4 +172,29 @@ video::-webkit-media-controls-panel {
   text-align: center;
   font-size: 13px;
   color: #aaa;
+}
+
+/* GRAFICO */
+
+.grafico {
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 400px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.graf2{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #00000056;
+  width: 500px;
+  height: 250px;
+  margin-left: 70px;
+}
+
+.grafico .texto3 {
+  width: 40%;
+  text-align: justify;
 }

@@ -26,7 +26,7 @@
 .progress-bar__fill {
   width: 0;
   height: inherit;
-  background: #ff3939;
+  background: #ff7f24;
   transition: all 0.16s;
 }
 .progress-bar--primary {
@@ -95,7 +95,7 @@
 }
 .main-post__tag {
   font-size: 0.95em;
-  background: #ff3939;
+  background: #ff7f24;
   padding: 6px 18px;
 }
 .main-post__title {
@@ -124,8 +124,8 @@
 
 .main-post__link:hover .main-post__link-text,
 .main-post__link:hover .main-post__link-icon--arrow path {
-  color: #ff3939;
-  stroke: #ff3939;
+  color: #ff7f24;
+  stroke: #ff7f24;
 }
 
 .main-post--active {

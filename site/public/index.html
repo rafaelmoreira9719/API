@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/1.css">
     <link rel="shortcut icon" href="assets/logourl.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -72,31 +73,35 @@
         </div>
         <div class="caixa2">
             <div class="card">
-                <img src="assets/11420221416979-removebg-preview.png"  alt="" class="card__img">                 
-                     <div class="card__data">
-                         <h1 class="card__title">Nike Air Jordan 1</h1>
-                         <span class="card__preci">Saiba mais</span>
-                         <p class="card__description">'University Blue' faz uso de uma paleta familiar que dá o aceno para a alma mater da UNC de Michael Jordan.</p>
-                         <a href="#" class="card__button">INFOS</a>
-                     </div>
+                <img src="assets/11420221416979-removebg-preview.png" alt="" class="card__img">
+                <div class="card__data">
+                    <h1 class="card__title">Nike Air Jordan 1</h1>
+                    <span class="card__preci">Saiba mais</span>
+                    <p class="card__description">'University Blue' faz uso de uma paleta familiar que dá o aceno para a
+                        alma mater da UNC de Michael Jordan.</p>
+                    <a href="#" class="card__button">INFOS</a>
+                </div>
             </div>
             <div class="card">
-                <img id="dunk" src="assets/us95_nike_dunk_low_fossil_rose_1648730045_6aaf7650-removebg-preview.png"  alt="" class="card__img">                 
-                     <div class="card__data">
-                         <h1 class="card__title">Dunk Fossil Rose</h1>
-                         <span class="card__preci">Saiba mais</span>
-                         <p class="card__description">Esta edição apresenta um design de sobreposições de nobuck Aura e Phantom com bloqueio de cores calmo e frio.</p>
-                         <a href="#" class="card__button">INFOS</a>
-                     </div>
+                <img id="dunk" src="assets/us95_nike_dunk_low_fossil_rose_1648730045_6aaf7650-removebg-preview.png"
+                    alt="" class="card__img">
+                <div class="card__data">
+                    <h1 class="card__title">Dunk Fossil Rose</h1>
+                    <span class="card__preci">Saiba mais</span>
+                    <p class="card__description">Esta edição apresenta um design de sobreposições de nobuck Aura e
+                        Phantom com bloqueio de cores calmo e frio.</p>
+                    <a href="#" class="card__button">INFOS</a>
+                </div>
             </div>
             <div class="card">
-                <img id="j5" src="assets/air-jordan-5-easter-10-removebg-preview.png"  alt="" class="card__img">                 
-                     <div class="card__data">
-                         <h1 class="card__title">Nike Air Jordan 5</h1>
-                         <span class="card__preci">Saiba mais</span>
-                         <p class="card__description">Com um visual clean, o AJ5 Retrô “Easter” apresenta uma base de nobuck rosa pastel, com detalhes em azul pastel.</p>
-                         <a href="#" class="card__button">INFOS</a>
-                     </div>
+                <img id="j5" src="assets/air-jordan-5-easter-10-removebg-preview.png" alt="" class="card__img">
+                <div class="card__data">
+                    <h1 class="card__title">Nike Air Jordan 5</h1>
+                    <span class="card__preci">Saiba mais</span>
+                    <p class="card__description">Com um visual clean, o AJ5 Retrô “Easter” apresenta uma base de nobuck
+                        rosa pastel, com detalhes em azul pastel.</p>
+                    <a href="#" class="card__button">INFOS</a>
+                </div>
             </div>
         </div>
         <div class="t4">
@@ -114,11 +119,25 @@
                 <h1>Ideal</h1>
                 <br>
                 <p>O propósito do Sneakers Release é unico e simples.
-                    Estamos proporcionando o fácil acesso as notícias mais atuais sobre tênis em um único lugar, com o intuito de ajudar você descobrir a data de lançamento daquele tênis tão desejado</p>
+                    Estamos proporcionando o fácil acesso as notícias mais atuais sobre tênis em um único lugar, com o
+                    intuito de ajudar você descobrir a data de lançamento daquele tênis tão desejado</p>
             </div>
             <img src="assets/pexels-frederik-sørensen-2404959.jpg">
         </div>
 
+    </div>
+
+    <div class="grafico">
+        <div class="graf2">
+            <canvas id="myChart2" style="position: relative; height:40vh; width:40vw"></canvas>
+        </div>
+        <div class="texto3">
+            <h1>Média de idade dos usuários</h1>
+            <br>
+            <p>O gráfico ao lado mostra a média de idade dos nossos usuários.
+                A maior parte destes são jovens que têm admiração por tênis e vão desde colecionadores até artistas que
+                personalizam os itens.</p>
+        </div>
     </div>
 
     <!-- COMEÇO DO FOOTER -->
@@ -135,3 +154,33 @@
 </body>
 
 </html>
+<script>
+    const labels = [
+        '10 a 15',
+        '15 a 25',
+        '25 a 35',
+        '35 a 45',
+    ];
+
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Idade',
+            backgroundColor: '#ff7f24',
+            borderColor: '#ff7f24',
+            data: [12, 50, 100, 25],
+        }
+        ]
+    };
+
+    const config = {
+        type: 'bar',
+        data: data,
+        options: {}
+    };
+
+    const myChart = new Chart(
+        document.getElementById('myChart2'),
+        config
+    );
+</script>

@@ -18,7 +18,7 @@ body{
     height: 657px;
     background: #ffffff;
     width: 70px;
-    box-shadow: 10px 0 0 rgba(255,66,66,1);
+    box-shadow: 10px 0 0 #ff7f24;
     border-left: 2px solid #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
@@ -79,7 +79,7 @@ color: rgb(0, 0, 0);
 }
 
 .navegacao ul li.active{
-    background-color: rgba(255,66,66,1);
+    background-color: #ff7f24;
 }
 
 .navegacao ul li.active a::before{
@@ -91,7 +91,7 @@ color: rgb(0, 0, 0);
     height: 30px;
     background: #61636900;
     border-radius: 50%;
-    box-shadow: 15px 15px 0 rgba(255,66,66,1);
+    box-shadow: 15px 15px 0 #ff7f24;
 }
 
 .navegacao ul li.active a::after{
@@ -103,7 +103,7 @@ color: rgb(0, 0, 0);
     height: 30px;
     background: #61636900;
     border-radius: 50%;
-    box-shadow: 15px -15px 0 rgba(255,66,66,1);
+    box-shadow: 15px -15px 0 #ff7f24;
 }
 
 /* FIM DO MENU LATERAL */
