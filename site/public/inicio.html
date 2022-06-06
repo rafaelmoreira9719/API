@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/inicio.css">
+  <link rel="stylesheet" href="css/poslogin.css">
+  <link rel="shortcut icon" href="assets/logourl.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="../js/funcoes.js"></script>
+  <title>Sneakers Release | Ínicio</title>
+</head>
+
+<body>
+
+  <div class="navegacao">
+    <ul>
+      <li class="lista active">
+        <a href="inicio.html">
+          <span class="icone">
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+          <span class="titulo">Início</span>
+        </a>
+      </li>
+      <li class="lista">
+        <a href="calendario.html">
+          <span class="icone">
+            <ion-icon name="calendar-number-outline"></ion-icon>
+          </span>
+          <span class="titulo">Calendário</span>
+        </a>
+      </li>
+      <li class="lista">
+        <a href="mural.html">
+          <span class="icone">
+            <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+          </span>
+          <span class="titulo">Mural</span>
+        </a>
+      </li>
+      <li class="lista">
+        <a href="#">
+          <span class="icone">
+            <ion-icon name="log-out-outline" onclick="limparSessao()"></ion-icon>
+          </span>
+          <span class="titulo" onclick="limparSessao()">Sair</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- FIM DO MENU LATERAL ------------------------------------------------------------------------------->
+
+  <div class="carousel">
+    <div class="progress-bar progress-bar--primary hide-on-desktop">
+      <div class="progress-bar__fill"></div>
+    </div>
+
+    <header class="main-post-wrapper">
+
+      <div class="slides">
+        <article class="main-post main-post--active">
+          <div class="main-post__image">
+            <img src="assets/125202212626919.jpg" />
+          </div>
+          <div class="main-post__content">
+            <div class="main-post__tag-wrapper">
+              <span class="main-post__tag">News</span>
+            </div>
+            <h1 class="main-post__title">Dunk Fossil Rose <br> Edição apresenta um design de sobreposições de nobuck Aura e Phantom</h1>
+            <a class="main-post__link" href="#">
+              <span class="main-post__link-text">Leia mais</span>
+            </a>
+          </div>
+        </article>
+        <article class="main-post main-post--not-active">
+          <div class="main-post__image">
+            <img src="assets/air-jordan-4-infrared-on-foot-front_w900.jpg" />
+          </div>
+          <div class="main-post__content">
+            <div class="main-post__tag-wrapper">
+              <span class="main-post__tag">News</span>
+            </div>
+            <h1 class="main-post__title">O Air Jordan 4 ‘Infrared’ Traz Boas Lembranças</h1>
+            <a class="main-post__link" href="#">
+              <span class="main-post__link-text">Leia mais</span>
+            </a>
+          </div>
+        </article>
+        <article class="main-post main-post--not-active">
+          <div class="main-post__image">
+            <img src="assets/kasina-nike-air-max-1-release-date-DQ8475-800-DQ8475-001.jpg" />
+          </div>
+          <div class="main-post__content">
+            <div class="main-post__tag-wrapper">
+              <span class="main-post__tag">News</span>
+            </div>
+            <h1 class="main-post__title">O Air Max 1 Assinado Pela Kasina Tem Mais Imagens – E Uma Data!
+            </h1>
+            <a class="main-post__link" href="#">
+              <span class="main-post__link-text">Leia mais</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </header>
+
+    <div class="posts-wrapper hide-on-mobile">
+      <article class="post post--active">
+        <div class="progress-bar">
+          <div class="progress-bar__fill"></div>
+        </div>
+        <header class="post__header">
+          <span class="post__tag">News</span>
+          <p class="post__published">3 de maio 2022</p>
+        </header>
+        <h2 class="post__title">Edição apresenta um design de sobreposições de nobuck Aura e Phantom</h2>
+      </article>
+      <article class="post">
+        <div class="progress-bar">
+          <div class="progress-bar__fill"></div>
+        </div>
+        <header class="post__header">
+          <span class="post__tag">News</span>
+          <p class="post__published">27 de maio 2022</p>
+        </header>
+        <h2 class="post__title">É natural a associação desse AIR JORDAN 4 “Infrared” com o “Black Cement“, talvez fruto
+          de uma tendência da JORDAN BRAND em reeditar...</h2>
+      </article>
+      <article class="post">
+        <div class="progress-bar">
+          <div class="progress-bar__fill"></div>
+        </div>
+        <header class="post__header">
+          <span class="post__tag">News</span>
+          <p class="post__published">08 August 2019</p>
+        </header>
+        <h2 class="post__title">A história de um antigo costume cultural coreano é a inspiração dos NIKE AIR MAX 1
+          assinados pela KASINA...
+        </h2>
+      </article>
+    </div>
+  </div>
+  <!-- FIM DO CAROSSEL ------------------------------------------------------------------------------->
+
+  <div class="container-produtos">
+    <div class="primeiralinha">
+
+      <a href="noticia1.html">
+        <img src="assets/125202212626919.jpg">
+      </a>
+      <a href="noticia1.html" id="not"><span class="noticia">Dunk Fossil Rose Edição apresenta um design de sobreposições de nobuck Aura e Phantom</span></a>
+
+      <a href="noticia2.html">
+      <img src="assets/not2.png">
+      </a>
+      <a href="noticia2.html" id="not"><span class="noticia">O Nike Air Force 1 Da Off-White Parece Estar Cada Vez Mais Perto</span></a>
+
+      <a href="noticia3.html">
+      <img src="assets/not3.jpeg">
+      </a>
+      <a href="noticia3.html" id="not"><span class="noticia">Kasina e Nike Celebram Aniversários Com Air Max 1 E Tradições Coreanas</span></a>
+
+      <a href="noticia4.html">
+      <img src="assets/not4.jpg">
+      </a>
+      <a href="noticia4.html" id="not"><span class="noticia">Talvez Esse Seja o Air Jordan Clog</span></a>
+
+      <a href="noticia5.html">
+      <img src="assets/not5.jpg">
+      </a>
+      <a href="noticia5.html" id="not"><span class="noticia">O Stan Smith Do Pride Pack Da adidas Tem Data Confirmada No Brasil</span></a>
+
+      <a href="noticia6.html">
+      <img src="assets/not6.png">
+      </a>
+      <a href="noticia6.html" id="not"><span class="noticia">O Ultraboost 5.0 DNA Também Está No Pride Pack 2022 Da adidas</span></a>
+
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
+
+<!-- FUNÇÃO PARA O MENU -->
+<script>
+
+  const lista = document.querySelectorAll('.lista');
+  function activeLink() {
+    lista.forEach((item) =>
+      item.classList.remove('active'));
+    this.classList.add('active');
+  }
+  lista.forEach((item) =>
+    item.addEventListener('click', activeLink));
+
+</script>
+
+<!-- FUNÇÃO PARA O CARROSSEL -->
+
+<script>
+
+  let mainPosts = document.querySelectorAll(".main-post");
+  let posts = document.querySelectorAll(".post");
+
+  let i = 0;
+  let postIndex = 0;
+  let currentPost = posts[postIndex];
+  let currentMainPost = mainPosts[postIndex];
+
+  let progressInterval = setInterval(progress, 100); // 180
+
+  function progress() {
+    if (i === 100) {
+      i = -5;
+      // reset progress bar
+      currentPost.querySelector(".progress-bar__fill").style.width = 0;
+      document.querySelector(
+        ".progress-bar--primary .progress-bar__fill"
+      ).style.width = 0;
+      currentPost.classList.remove("post--active");
+
+      postIndex++;
+
+      currentMainPost.classList.add("main-post--not-active");
+      currentMainPost.classList.remove("main-post--active");
+
+      // reset postIndex to loop over the slides again
+      if (postIndex === posts.length) {
+        postIndex = 0;
+      }
+
+      currentPost = posts[postIndex];
+      currentMainPost = mainPosts[postIndex];
+    } else {
+      i++;
+      currentPost.querySelector(".progress-bar__fill").style.width = `${i}%`;
+      document.querySelector(
+        ".progress-bar--primary .progress-bar__fill"
+      ).style.width = `${i}%`;
+      currentPost.classList.add("post--active");
+
+      currentMainPost.classList.add("main-post--active");
+      currentMainPost.classList.remove("main-post--not-active");
+    }
+  }
+
+</script>

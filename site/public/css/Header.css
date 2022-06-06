@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.logo img{
+  height: 28px;
+  margin-left: 133px;
+  filter: drop-shadow(0 0 5px white);
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.1em;
+    align-items: center;
+    height: 55px;
+}
+
+.container{
+    color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-left: 140px;
+}
+
+.container ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.header .container {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+ul a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+.agora {
+    font-weight: 900;
+}
+
+.btnlogin{
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000000;
+    background: #ffffff;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition-duration: 0.4s;
+    outline: none;
+    border: solid 1px #2b2b2b57;
+}
+
+.btncadastro{
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000000;
+    background: #ff3939;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition-duration: 0.4s;
+    outline: none;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0px 0px 5px #00000052;
+}

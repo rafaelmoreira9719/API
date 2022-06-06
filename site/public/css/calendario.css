@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+*{
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero-banner {
+  align-items: center;
+  display: flex;
+  height: 415px;
+  width: 1349px;
+  position: relative;
+  justify-content: center;
+  z-index: -1;
+  background-color: #ffffff;
+  margin-left: 30px;
+}
+
+.hero-banner__title {
+  color: rgb(0, 0, 0);
+  font-size: 90px;
+  font-weight: 700;
+  padding: 0 20px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial;
+  
+}
+
+.hero-banner__stroked-title {
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+.hero-banner__image {
+  border-radius: 20px;
+  position: relative;
+  transform: rotate(-15deg);
+  width: 450px;
+}
+
+.container-tenis{
+margin-top: 40px;
+width: 100%;
+}
+
+.container-tenis img{
+  margin-left: 180px;
+}
+
+.btnC{
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000000;
+    background: #a5a5a5;
+    cursor: pointer;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    margin-left: 678px;
+    margin-bottom: 40px;
+}

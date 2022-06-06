@@ -1,0 +1,182 @@
+/*cadastro*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+*{
+  font-family: "Open Sans", sans-serif;
+}
+
+
+/* ERRO */
+.alerta_erro{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .card_erro {
+    display: none;
+    background-color: #fff;
+    color: black;
+    width: 230px;
+    position: fixed;
+    border-radius: 20px;
+    border: #e39500 3px solid;
+    padding: 10px;
+    margin-right: 10%;
+  }
+  
+  .card_erro #mensagem_erro{
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+/* AGUARADR */
+.loading-div {
+    width: 50px;
+    margin: auto;
+    display: none;
+  }
+  
+  .loading-div img {
+    height: 50px;
+    width: 50px;
+  }
+
+
+.main-login{
+    width: 98vw;
+    height: 110vh;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-login{
+    width: 40vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 40px #00000056;
+    
+}
+.left-login h1{
+    font-size: 2.5vw;
+    color: #2b2b2b;
+}
+.left-login-image{
+    width: 40vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.right-login{
+    width: 40vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 10px 40px #00000056;
+    
+}
+.card{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    background: #f2f2f2;
+    border-radius: 20px;
+}
+.card h1{
+    color: #2b2b2b;
+    font-weight: 800;
+    margin: 0;
+}
+.dados{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.card input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #f0ffff94;
+    color: #2b2b2b;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    box-sizing: border-box;
+}
+.card h3{
+    color: #2b2b2b;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #f0ffff;
+    background: #e39500;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.btn2{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #f0ffff;
+    background: #209c3a;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.tamanho{
+    width: 400px;
+}
+
+.btnlogin{
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000000;
+    background: #fafafa00;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition-duration: 0.4s;
+    letter-spacing: 1px;
+    outline: none;
+    border: solid 1px #2b2b2b57;
+}

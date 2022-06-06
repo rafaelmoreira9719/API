@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+*{
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero-banner {
+  align-items: center;
+  display: flex;
+  height: 415px;
+  position: relative;
+  justify-content: center;
+  z-index: -1;
+  background-color: #e6e6e6;
+}
+
+.hero-banner__title {
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  font-weight: 700;
+  padding: 0 20px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial;
+}
+
+.hero-banner__stroked-title {
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+.hero-banner__image {
+  border-radius: 20px;
+  position: fixed;
+  transform: rotate(-15deg);
+  width: 450px;
+}
+
+body {
+  background-color: #000;
+}
+/* SEGUNDA LINHA */
+
+.segundalinha{
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+}
+
+.caixa1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caixa1 img{
+    height: 530px;
+    width: 400px;
+}
+
+.caixa1 .texto{
+  margin-top: -25px;
+  width: 40%;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+
+/* COMECO DO MURAL DE FOTOS */
+
+.caixa{
+  padding: 100px;
+  background-color: #e6e6e6;
+  padding-top: 130px;
+}
+
+.caixa img {
+  width: 100%;
+}
+
+.masonry {
+	column-count: 4;
+	column-gap: 16px;
+}
+
+.masonry .mItem {
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.caixa img {
+  transition: filter .1s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.caixa img:hover {
+  filter: none;
+}
+
+
+/* FOOTER */
+
+    .footer{
+        height: 100px;
+        width: 100%;
+        padding:40px 0;
+        background-color:#535353;
+        color:#000000;
+      }
+      
+      .footer ul {
+        justify-content: center;
+        text-align:center;
+        font-size:18px;
+        line-height:1.6;
+        display: flex;
+        list-style: none;
+      }
+      
+      .footer li {
+        padding:0 10px;
+      }
+      
+      .footer ul a {
+        color:inherit;
+        text-decoration:none;
+        opacity:0.8;
+      }
+      
+      .footer ul a:hover {
+        opacity:1;
+      }
+      
+      .footer .copyright {
+        justify-content: center;
+        margin-top:15px;
+        text-align:center;
+        font-size:13px;
+        color:#aaa;
+      }
